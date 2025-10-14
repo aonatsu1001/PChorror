@@ -13,5 +13,13 @@ UCLASS()
 class VRPROJECT_API AChaserAIController : public AAIController
 {
 	GENERATED_BODY()
-	
+
+protected:
+	virtual void BeginPlay() override;
+	//パトロールポイント
+	UPROPERTY(EditAnywhere, BlueprintReadWrite = "AI")
+	TArray<AActor*> PatrolPoints;
+
+	//現在のパトロールポイントのインデックス
+	int32 CurrentPatrolPointIndex = 0;
 };
