@@ -12,17 +12,17 @@ void AChaserAIController::BeginPlay()
 	// プレイヤーへのポインタを取得して変数に格納
 	APawn* VRPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 
-	if (VRPawn)
-	{
-		//Chaserを特定の位置にテレポートさせる
-		APawn* ChaserPawn = GetPawn();
-		if (ChaserPawn)
-		{
-			FVector SpawnLocation = FVector(1000.f, 1000.f, 100.f); // 例: (1000, 1000, 100)の位置にスポーン
-			FRotator SpawnRotation = FRotator::ZeroRotator; // 回転はゼロ
-			ChaserPawn->SetActorLocationAndRotation(SpawnLocation, SpawnRotation);
-		}
-	}
+	//if (VRPawn)
+	//{
+	//	//Chaserを特定の位置にテレポートさせる
+	//	APawn* ChaserPawn = GetPawn();
+	//	if (ChaserPawn)
+	//	{
+	//		FVector SpawnLocation = FVector(1000.f, 1000.f, 100.f); // 例: (1000, 1000, 100)の位置にスポーン
+	//		FRotator SpawnRotation = FRotator::ZeroRotator; // 回転はゼロ
+	//		ChaserPawn->SetActorLocationAndRotation(SpawnLocation, SpawnRotation);
+	//	}
+	//}
 }
 
 // 毎フレーム呼ばれる関数
