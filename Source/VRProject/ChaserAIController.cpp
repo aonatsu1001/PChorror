@@ -1,29 +1,29 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ChaserAIController.h"
-#include "Kismet/GameplayStatics.h"
-#include "GameFramework/Character.h"
+//#include "ChaserAIController.h"
+//#include "Kismet/GameplayStatics.h"
+//#include "GameFramework/Character.h"
 
 //起動時に一度だけ呼ばれる関数
-void AChaserAIController::BeginPlay()
-{
-	Super::BeginPlay();
-	// プレイヤーへのポインタを取得して変数に格納
-	APawn* VRPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
-
-	//if (VRPawn)
-	//{
-	//	//Chaserを特定の位置にテレポートさせる
-	//	APawn* ChaserPawn = GetPawn();
-	//	if (ChaserPawn)
-	//	{
-	//		FVector SpawnLocation = FVector(1000.f, 1000.f, 100.f); // 例: (1000, 1000, 100)の位置にスポーン
-	//		FRotator SpawnRotation = FRotator::ZeroRotator; // 回転はゼロ
-	//		ChaserPawn->SetActorLocationAndRotation(SpawnLocation, SpawnRotation);
-	//	}
-	//}
-}
+//void AChaserAIController::BeginPlay()
+//{
+//	Super::BeginPlay();
+//	// プレイヤーへのポインタを取得して変数に格納
+//	APawn* VRPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+//
+//	//if (VRPawn)
+//	//{
+//	//	//Chaserを特定の位置にテレポートさせる
+//	//	APawn* ChaserPawn = GetPawn();
+//	//	if (ChaserPawn)
+//	//	{
+//	//		FVector SpawnLocation = FVector(1000.f, 1000.f, 100.f); // 例: (1000, 1000, 100)の位置にスポーン
+//	//		FRotator SpawnRotation = FRotator::ZeroRotator; // 回転はゼロ
+//	//		ChaserPawn->SetActorLocationAndRotation(SpawnLocation, SpawnRotation);
+//	//	}
+//	//}
+//}
 
 // 毎フレーム呼ばれる関数
 //void AChaserAIController::Tick(float DeltaSeconds)
