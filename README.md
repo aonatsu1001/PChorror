@@ -4,8 +4,6 @@ Unreal Engine5 で3D脱出ゲームを制作しました．
 
 デモ動画とコードと投稿サイトのURLを記載しています．
 
-ブループリントで実装したので，テキストファイルにエキスポートしたものをScriptsフォルダにまとめています．
-
 <img width="1250" height="519" alt="スクリーンショット 2025-10-13 111353" src="https://github.com/user-attachments/assets/7224aae2-5529-425b-a179-568c01d0067f" />
 
 
@@ -13,7 +11,7 @@ Unreal Engine5 で3D脱出ゲームを制作しました．
 
 デモ動画をYoutubeに限定公開しています．
 
-デモ動画は[こちら](https://youtu.be/P_D_AWbpv5w)
+デモ動画は[こちら](https://youtu.be/Po2CRVGavP0)
 
 
 # 投稿サイト
@@ -22,7 +20,7 @@ Unreal Engine5 で3D脱出ゲームを制作しました．
 
 ダウンロードは[こちら](https://www.freem.ne.jp/win/game/32979)
 
-現在ダウンロード数は67です．
+現在ダウンロード数は74です．
 
 
 # 注意点
