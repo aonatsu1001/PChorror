@@ -17,15 +17,20 @@ public:
 
 protected:
 
+	virtual void BeginPlay() override;
+
 	//Chaserの視界内にプレイヤーが存在するかどうかを記憶する変数
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
 	bool bIsChasing;
 
 	//C++から呼び出す，ブループリント側で実装されるイベント
 	UFUNCTION(BlueprintImplementableEvent, Category = "AI")
-	void OnPlalyerSpotted();  //プレイヤーを発見したときに呼び出されるイベント
+	void OnPlayerSpotted();  //プレイヤーを発見したときに呼び出されるイベント
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "AI")
 	void OnPlayerLost();  //プレイヤーを見失ったときに呼び出されるイベント
+
+	//現在の巡回地点のインデックス
+	int32 CurrentPatrolPointIndex;
 
 };
