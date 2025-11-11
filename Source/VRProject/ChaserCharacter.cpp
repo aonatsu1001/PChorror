@@ -10,25 +10,25 @@ AChaserCharacter::AChaserCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 }
-
-// Called when the game starts or when spawned
-void AChaserCharacter::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void AChaserCharacter::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
-// Called to bind functionality to input
-void AChaserCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}
+//
+//// Called when the game starts or when spawned
+//void AChaserCharacter::BeginPlay()
+//{
+//	Super::BeginPlay();
+//	
+//}
+//
+//// Called every frame
+//void AChaserCharacter::Tick(float DeltaTime)
+//{
+//	Super::Tick(DeltaTime);
+//
+//}
+//
+//// Called to bind functionality to input
+//void AChaserCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+//{
+//	Super::SetupPlayerInputComponent(PlayerInputComponent);
+//
+//}
 
